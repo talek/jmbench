@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testResults version="1.2">
-<sample t="295" it="0" lt="294" ct="0" ts="1623244307429" s="true" lb="Q1" rc="200" rm="OK" tn="Thread 1-1" dt="text" by="16" sby="0" ng="1" na="1"/>
-<sample t="106" it="0" lt="103" ct="0" ts="1623244307538" s="true" lb="Q2" rc="200" rm="OK" tn="Thread 1-1" dt="text" by="3363" sby="0" ng="1" na="1"/>
-<sample t="0" it="0" lt="0" ct="0" ts="1623244307539" s="true" lb="Q3" rc="200" rm="OK" tn="Thread 1-1" dt="text" by="30" sby="0" ng="1" na="1"/>
-
-</testResults>
