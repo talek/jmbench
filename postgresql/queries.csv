@@ -1,0 +1,4 @@
+Q1::select table_name from information_schema.tables limit 2
+Q2::select * from not_existing_table
+Q3::select now()
+Q4::select count(*) from information_schema.tables

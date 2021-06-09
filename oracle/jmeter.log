@@ -1,0 +1,47 @@
+2021-06-09 16:11:46,030 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-06-09 16:11:46,046 INFO o.a.j.JMeter: Setting JMeter property: user.classpath=/Users/talek/Oracle/ic19_3/ojdbc8.jar
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: Version 5.4.1
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: java.version=16.0.1
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: os.arch=x86_64
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: os.version=10.15.7
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: java.awt.headless=true
+2021-06-09 16:11:46,051 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-06-09 16:11:46,052 INFO o.a.j.JMeter: Available Processors =16
+2021-06-09 16:11:46,059 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-06-09 16:11:46,059 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-06-09 16:11:46,059 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.1/libexec
+2021-06-09 16:11:46,059 INFO o.a.j.JMeter: user.dir  =/Users/talek/Projects/jmeter/oracle
+2021-06-09 16:11:46,059 INFO o.a.j.JMeter: PWD       =/Users/talek/Projects/jmeter/oracle
+2021-06-09 16:11:46,060 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: mac.local FullName: localhost
+2021-06-09 16:11:46,060 INFO o.a.j.JMeter: user.classpath=/Users/talek/Oracle/ic19_3/ojdbc8.jar
+2021-06-09 16:11:46,060 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/talek/Oracle/ic19_3/ojdbc8.jar
+2021-06-09 16:11:46,063 INFO o.a.j.s.FileServer: Default base='/Users/talek/Projects/jmeter/oracle'
+2021-06-09 16:11:46,064 INFO o.a.j.s.FileServer: Set new base='/Users/talek/Projects/jmeter/oracle'
+2021-06-09 16:11:46,180 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-06-09 16:11:46,198 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-06-09 16:11:46,200 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-06-09 16:11:46,203 INFO o.a.j.s.SaveService: Loading file: ora_perf.jmx
+2021-06-09 16:11:46,253 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-09 16:11:46,254 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-09 16:11:46,254 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-09 16:11:47,102 INFO o.a.j.JMeter: Running test (1623244307102)
+2021-06-09 16:11:47,124 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread
+2021-06-09 16:11:47,124 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread.
+2021-06-09 16:11:47,124 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-09 16:11:47,124 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-06-09 16:11:47,126 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-09 16:11:47,126 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-09 16:11:47,129 INFO o.a.j.t.JMeterThread: Thread started: Thread 1-1
+2021-06-09 16:11:47,130 INFO o.a.j.s.FileServer: Stored: /Users/talek/Projects/jmeter/oracle/queries.csv
+2021-06-09 16:11:47,133 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are END times
+2021-06-09 16:11:47,133 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-06-09 16:11:47,134 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-06-09 16:11:47,134 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-06-09 16:11:47,539 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Thread 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/talek/Projects/jmeter/oracle/queries.csv detected for CSV DataSet:CSV Queries configured with stopThread:true, recycle:false
+2021-06-09 16:11:47,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread 1-1
+2021-06-09 16:11:47,540 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-09 16:11:47,540 INFO o.a.j.s.FileServer: Close: /Users/talek/Projects/jmeter/oracle/queries.csv
