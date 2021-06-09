@@ -7,11 +7,12 @@ them on the target system using a JDBC connection. The queries are run one by
 one and the execution time is captured in an output/results XML file.
 
 Running queries using JDBC and not through some fancy scripts is the
-recommended way because JDBC is transparent we can reuse the same execution
+recommended way because JDBC is transparent and we can reuse the same execution
 logic. If we were to choose the shell script executor approach, then we would
 be required to embbed a different logic in each and every script, taking into
 account the peculiarities of every database client application (e.q. `sqlplus`
-for Oracle or `psql` for Postgresql).
+for Oracle or `psql` for Postgresql). In addition, there are JDBC libraries for
+a vast range of datqabase backends.
 
 Special care is needed when the connection pool is configured so that to have
 all the database sessions already opened. Otherwise, the connection time will
