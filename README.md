@@ -12,7 +12,7 @@ logic. If we were to choose the shell script executor approach, then we would
 be required to embbed a different logic in each and every script, taking into
 account the peculiarities of every database client application (e.q. `sqlplus`
 for Oracle or `psql` for Postgresql). In addition, there are JDBC libraries for
-a vast range of datqabase backends.
+a vast range of database backends.
 
 Special care is needed when the connection pool is configured so that to have
 all the database sessions already opened. Otherwise, the connection time will
